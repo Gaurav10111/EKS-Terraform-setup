@@ -38,11 +38,11 @@ addons = [
   },
   {
     name    = "coredns"
-    version = "v1.12.2-eksbuild.4"
+    version = "v1.11.1-eksbuild.9"
   },
   {
     name    = "kube-proxy"
-    version = "v1.33.0-eksbuild.2"
+    version = "v1.29.3-eksbuild.2"
   },
   {
     name    = "aws-ebs-csi-driver"
