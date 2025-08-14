@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "mern-eks-tfstate-ap-south-1-20250812"
+    bucket         = "mern-eks-tfstate-ap-south-1"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "mern-eks-tf-locks"
